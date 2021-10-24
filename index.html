@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para DEV`S</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario para DEV`S</h1>
+    </header>
+
+    <main>
+        <div id="whoame">
+            <label for="Nome">Qual é seu nome?</label>
+            <input type="text" name="Nome" required>
+
+            <label for="email">Digite seu Email</label>
+            <input type="email" name="email" required>
+        </div>
+
+        <div id="lingFavorita">
+            <label for="Linguagens">Selecione sua linguagem favorita!</label>
+            <select name="Linguagens" required>
+                <option selected disabled></option>
+                <option value="JS">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="Ruby">Ruby</option>
+                <option value="C++">C/C++</option>
+                <option value="C#">C#</option>
+            </select>
+        </div>
+
+        <div id="serenidade">
+            <label>Qual é seu tipo de serenidade?</label>
+            <input type="checkbox" name="junior" checked required>
+            <label for="junior">JUNIOR</label>
+            <input type="checkbox" name="pleno">
+            <label for="pleno">PLENO</label>
+            <input type="checkbox" name="senior">
+            <label for="senior">SENIOR</label>
+        </div>
+
+        <div id="redesociais">
+            <label for="Github">Digite seu link do Github (OPTIONAL)</label>
+            <input type="text" name="Github">
+
+            <label for="Linkedin">Digite seu link do Linkedin (OPTIONAL)</label>
+            <input type="text" name="Linkedin">
+
+            <label for="OutrasRS">Outras rede sociais (OPTIONAL)</label>
+            <input type="text" name="OutrasRS">
+        </div>
+
+        <button type="submit">Enviar</button>
+    </main>
+</body>
+</html>

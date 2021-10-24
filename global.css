@@ -1,0 +1,59 @@
+@keyframes init{
+    from{margin-left: -10px;opacity: 0;}
+    to{margin-left: 10;opacity: 1;}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(196, 55, 196);
+}
+main{
+    animation: init 1s;
+    background-color: white;
+    width: 65%;
+    height: 475px;
+    padding: 10px 15px;
+    margin: 25px 415px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+main > *{
+    margin-top: 20px;
+}
+button{
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(196, 55, 196);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 300ms;
+}
+button:hover{
+    background-color: rgb(161, 46, 161);
+    box-shadow: 1px 1px 7px gray;
+    color: rgb(230, 228, 228);
+}
+
+h1{
+    animation: init 1s;
+    margin-left: 50px;
+    color: white;
+    font-size: 45px;
+    transition: 300ms;
+}
+h1:hover{
+    font-size: 48px;
+}
+#redesociais,#whoame{
+    display: flex;
+    flex-direction: column;
+}
